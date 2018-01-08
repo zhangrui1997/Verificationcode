@@ -7,7 +7,7 @@
 # @Software: PyCharm
 from PIL import Image
 
-im = Image.open('haha.png')
+im = Image.open('iconset/0/3.png')
 for i in range(im.size[0]):
     for j in range(im.size[1]):
         pix = im.getpixel((i, j))
